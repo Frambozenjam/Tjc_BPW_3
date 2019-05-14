@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 847, y: 494}
-  m_MaxSize: {x: 28012, y: 14044}
+  m_MinSize: {x: 843, y: 472}
+  m_MaxSize: {x: 28008, y: 14044}
   vertical: 1
-  controlID: 266
+  controlID: 22246
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -45,10 +45,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 307
-    y: 73
-    width: 1595
-    height: 863
+    x: 2
+    y: 20
+    width: 1486
+    height: 860
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 1
@@ -61,10 +61,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -752
-    m_HBaseRangeMax: 752
-    m_VBaseRangeMin: -423
-    m_VBaseRangeMax: 423
+    m_HBaseRangeMin: -743
+    m_HBaseRangeMax: 743
+    m_VBaseRangeMin: -418
+    m_VBaseRangeMax: 418
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -73,7 +73,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -82,25 +82,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 1595
-      height: 846
+      width: 1486
+      height: 843
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 797.5, y: 423}
+    m_Translation: {x: 743, y: 421.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -797.5
-      y: -423
-      width: 1595
-      height: 846
+      x: -743
+      y: -421.5
+      width: 1486
+      height: 843
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 1
-  m_LastWindowPixelSize: {x: 1595, y: 863}
+  m_LastWindowPixelSize: {x: 1486, y: 860}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -127,10 +127,10 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 1307
-  m_MinSize: {x: 847, y: 494}
-  m_MaxSize: {x: 28012, y: 14044}
+  m_MinSize: {x: 843, y: 472}
+  m_MaxSize: {x: 28008, y: 14044}
   vertical: 0
-  controlID: 267
+  controlID: 22247
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,12 +150,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 307
+    width: 287
     height: 1307
-  m_MinSize: {x: 232, y: 494}
-  m_MaxSize: {x: 10002, y: 14044}
+  m_MinSize: {x: 232, y: 472}
+  m_MaxSize: {x: 10002, y: 14022}
   vertical: 1
-  controlID: 109
+  controlID: 22181
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,10 +173,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 307
+    width: 287
     height: 625
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -205,7 +205,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 307
+    width: 287
     height: 606
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
@@ -213,7 +213,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8efbffff
+      m_ExpandedIDs: 00ccfcff08ccfcfff8e3fcfff0fafeff1cfffeff48fffeff52fffeffd2fffeffc000ffff9402ffff463fffff1a41ffffc07dffff5c7effffdebaffff84f7ffff8efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -254,7 +254,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 625
-    width: 307
+    width: 287
     height: 682
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
@@ -286,7 +286,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 698
-    width: 307
+    width: 287
     height: 663
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -300,19 +300,20 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/Art/Materials
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Projects Unity\TJC_BPW_3
+  m_LastProjectPath: D:\Projects Github\Tjc_BPW_3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 580b0000
     m_LastClickedID: 2904
-    m_ExpandedIDs: 00000000f42e0000162f0000ec3000002a310000663100003e3200007e320000ae33000066350000f2350000f63500002a360000d6360000f23a0000f43a0000
+    m_ExpandedIDs: ffffffff00000000f42e0000142f0000162f0000bc300000ec3000002a310000663100003e3200007e320000b4320000ae33000066350000f2350000f63500002a360000d6360000f23a0000f43a0000223b000040ae0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -337,10 +338,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 798}
-    m_SelectedIDs: a6310000
-    m_LastClickedID: 12710
-    m_ExpandedIDs: ffffffff00000000f42e0000162f0000ec3000002a310000663100003e3200007e320000ae33000066350000f2350000f63500002a360000d6360000f23a0000f43a0000
+    scrollPos: {x: 0, y: 302}
+    m_SelectedIDs: f8e3fcff
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff00000000f42e0000142f0000162f0000bc300000ec3000002a310000663100003e3200007e320000b4320000ae33000066350000f2350000f63500002a360000d6360000f23a0000f43a0000223b000040ae0000f8c70000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,8 +366,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: a6310000
-    m_LastClickedInstanceID: 12710
+    m_SelectedInstanceIDs: f8e3fcff
+    m_LastClickedInstanceID: -203784
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -412,14 +413,14 @@ MonoBehaviour:
   - {fileID: 18}
   m_Position:
     serializedVersion: 2
-    x: 307
+    x: 287
     y: 0
-    width: 1816
+    width: 1648
     height: 1307
-  m_MinSize: {x: 338, y: 394}
-  m_MaxSize: {x: 14008, y: 14044}
+  m_MinSize: {x: 334, y: 394}
+  m_MaxSize: {x: 14004, y: 14044}
   vertical: 1
-  controlID: 216
+  controlID: 22248
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -439,12 +440,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1816
+    width: 1648
     height: 882
-  m_MinSize: {x: 208, y: 122}
-  m_MaxSize: {x: 8008, y: 4022}
+  m_MinSize: {x: 204, y: 122}
+  m_MaxSize: {x: 8004, y: 4022}
   vertical: 0
-  controlID: 142
+  controlID: 22249
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -462,10 +463,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1597
+    width: 1490
     height: 882
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 104, y: 122}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 12}
@@ -493,9 +494,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 307
+    x: 287
     y: 73
-    width: 1595
+    width: 1488
     height: 863
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -508,9 +509,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 13.9248705, y: 8.741055, z: -9.114252}
+    m_Target: {x: 0, y: 1.1796179, z: 0.7040603}
     speed: 2
-    m_Value: {x: 13.9248705, y: 8.741055, z: -9.114252}
+    m_Value: {x: 0, y: 1.1796179, z: 0.7040603}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -539,13 +540,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.10855239, y: -0.1369848, z: 0.015114674, w: -0.9848703}
+    m_Target: {x: -0.008702837, y: -0.08197211, z: -0.000608126, w: 0.9970169}
     speed: 2
-    m_Value: {x: -0.1085119, y: -0.1369337, z: 0.015109037, w: -0.984503}
+    m_Value: {x: -0.008699192, y: -0.081937775, z: -0.0006078713, w: 0.9965993}
   m_Size:
-    m_Target: 6.356238
+    m_Target: 5.7859726
     speed: 2
-    m_Value: 6.356238
+    m_Value: 5.7859726
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -585,12 +586,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1597
+    x: 1490
     y: 0
-    width: 219
+    width: 158
     height: 882
-  m_MinSize: {x: 104, y: 122}
-  m_MaxSize: {x: 4004, y: 4022}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 14}
@@ -650,7 +651,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -746,7 +747,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -842,7 +843,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -938,7 +939,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1034,7 +1035,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1130,7 +1131,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1226,7 +1227,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1322,7 +1323,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1418,7 +1419,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1514,7 +1515,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1610,7 +1611,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1706,7 +1707,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1802,7 +1803,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1898,7 +1899,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1994,7 +1995,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2090,7 +2091,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2186,7 +2187,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2282,7 +2283,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2378,7 +2379,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2474,7 +2475,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2570,7 +2571,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2666,7 +2667,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2762,7 +2763,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2858,7 +2859,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -2970,7 +2971,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3082,7 +3083,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3194,7 +3195,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3306,7 +3307,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3418,7 +3419,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3530,7 +3531,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3642,7 +3643,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3754,7 +3755,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3866,7 +3867,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3978,7 +3979,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4090,7 +4091,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4202,7 +4203,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4314,7 +4315,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4426,7 +4427,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4538,7 +4539,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4650,7 +4651,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4762,7 +4763,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4874,7 +4875,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4986,7 +4987,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5098,7 +5099,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5210,7 +5211,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5322,7 +5323,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5434,7 +5435,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5546,7 +5547,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5658,7 +5659,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5770,7 +5771,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5882,7 +5883,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5994,7 +5995,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -6106,7 +6107,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -6173,7 +6174,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -6240,7 +6241,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -6380,7 +6381,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -6509,7 +6510,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -6638,7 +6639,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -6767,7 +6768,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -6896,7 +6897,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -7025,7 +7026,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -7154,7 +7155,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -7283,7 +7284,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -7412,7 +7413,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -7541,7 +7542,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -7670,7 +7671,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -7799,7 +7800,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -7928,7 +7929,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -8057,7 +8058,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -8186,7 +8187,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -8315,7 +8316,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -8444,7 +8445,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -8573,7 +8574,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -8702,7 +8703,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -8831,7 +8832,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -8960,7 +8961,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -9089,7 +9090,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -9206,7 +9207,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 5.7.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.render-pipelines.lightweight@5.7.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.render-pipelines.lightweight@5.7.2
         m_AssetPath: Packages/com.unity.render-pipelines.lightweight
         m_Name: com.unity.render-pipelines.lightweight
         m_DisplayName: Lightweight RP
@@ -9326,7 +9327,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 5.7.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.render-pipelines.lightweight@5.7.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.render-pipelines.lightweight@5.7.2
         m_AssetPath: Packages/com.unity.render-pipelines.lightweight
         m_Name: com.unity.render-pipelines.lightweight
         m_DisplayName: Lightweight RP
@@ -9446,7 +9447,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 5.7.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.render-pipelines.lightweight@5.7.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.render-pipelines.lightweight@5.7.2
         m_AssetPath: Packages/com.unity.render-pipelines.lightweight
         m_Name: com.unity.render-pipelines.lightweight
         m_DisplayName: Lightweight RP
@@ -9566,7 +9567,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 5.7.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.render-pipelines.lightweight@5.7.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.render-pipelines.lightweight@5.7.2
         m_AssetPath: Packages/com.unity.render-pipelines.lightweight
         m_Name: com.unity.render-pipelines.lightweight
         m_DisplayName: Lightweight RP
@@ -9686,7 +9687,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 5.7.2
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.render-pipelines.lightweight@5.7.2
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.render-pipelines.lightweight@5.7.2
         m_AssetPath: Packages/com.unity.render-pipelines.lightweight
         m_Name: com.unity.render-pipelines.lightweight
         m_DisplayName: Lightweight RP
@@ -9818,7 +9819,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9948,7 +9949,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10078,7 +10079,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10208,7 +10209,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10338,7 +10339,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10468,7 +10469,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10598,7 +10599,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10728,7 +10729,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10858,7 +10859,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -10988,7 +10989,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -11118,7 +11119,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -11248,7 +11249,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -11378,7 +11379,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -11508,7 +11509,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -11638,7 +11639,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -11768,7 +11769,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -11898,7 +11899,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -12028,7 +12029,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -12158,7 +12159,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -12288,7 +12289,7 @@ MonoBehaviour:
         m_IsRootDependency: 1
         m_Version: 2.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Projects Unity\TJC_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
+        m_ResolvedPath: D:\Projects Github\Tjc_BPW_3\Library\PackageCache\com.unity.textmeshpro@2.0.0
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -77382,14 +77383,14 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1904
+    x: 1777
     y: 73
-    width: 217
+    width: 156
     height: 863
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1428
+  m_LastSelectedObjectID: -203784
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -77409,12 +77410,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 882
-    width: 1816
+    width: 1648
     height: 425
-  m_MinSize: {x: 338, y: 272}
-  m_MaxSize: {x: 14008, y: 10022}
+  m_MinSize: {x: 334, y: 272}
+  m_MaxSize: {x: 14004, y: 10022}
   vertical: 0
-  controlID: 217
+  controlID: 22211
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -77432,7 +77433,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1207
+    width: 1094
     height: 425
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
@@ -77462,9 +77463,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 307
+    x: 287
     y: 955
-    width: 1205
+    width: 1092
     height: 406
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -77479,20 +77480,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Art/Materials
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Art/Materials
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\Projects Unity\TJC_BPW_3
+  m_LastProjectPath: D:\Projects Github\Tjc_BPW_3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f6350000
-    m_LastClickedID: 13814
-    m_ExpandedIDs: 00000000f42e0000162f0000ec3000002a310000663100003e3200007e320000ae33000066350000f2350000f63500002a360000d6360000f23a0000f43a0000
+    m_SelectedIDs: 2a310000
+    m_LastClickedID: 12586
+    m_ExpandedIDs: ffffffff00000000f42e0000142f0000162f0000bc300000ec3000002a310000663100003e3200007e320000b4320000ae33000066350000f2350000f63500002a360000d6360000f23a0000f43a0000223b000040ae0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -77520,7 +77521,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 580b0000
     m_LastClickedID: 2904
-    m_ExpandedIDs: 00000000f42e0000162f0000ec3000002a310000663100003e3200007e320000ae33000066350000f2350000f63500002a360000d6360000f23a0000f43a0000
+    m_ExpandedIDs: ffffffff00000000f42e0000142f0000162f0000bc300000ec3000002a310000663100003e3200007e320000b4320000ae33000066350000f2350000f63500002a360000d6360000f23a0000f43a0000223b000040ae0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -77545,24 +77546,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: a6310000
-    m_LastClickedInstanceID: 12710
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000a0d0feff120e000000000000e0250000
+    m_SelectedInstanceIDs: f8e3fcff
+    m_LastClickedInstanceID: -203784
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000a0d0feff120e0000e025000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: mat_RainSplash
+      m_OriginalName: mat_RainSplash
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 13186
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 19}
     m_CreateAssetUtility:
@@ -77572,7 +77573,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 158}
     m_GridSize: 16
   m_DirectoriesAreaWidth: 195
 --- !u!114 &21
@@ -77590,9 +77591,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1207
+    x: 1094
     y: 0
-    width: 609
+    width: 554
     height: 425
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
@@ -77622,9 +77623,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1514
+    x: 1381
     y: 955
-    width: 607
+    width: 552
     height: 406
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &23
@@ -77642,19 +77643,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 2123
+    x: 1935
     y: 0
-    width: 437
+    width: 625
     height: 1307
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 24}
   m_Panes:
   - {fileID: 24}
   - {fileID: 25}
   - {fileID: 26}
   - {fileID: 27}
-  - {fileID: 28}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &24
@@ -77678,9 +77678,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2123
+    x: 1935
     y: 73
-    width: 435
+    width: 623
     height: 1288
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
@@ -77702,27 +77702,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 13853, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 300, y: 300}
+  m_MinSize: {x: 390, y: 390}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Project Settings
-    m_Image: {fileID: 8487775502441791945, guid: 0000000000000000d000000000000000,
+    m_Text: Lighting
+    m_Image: {fileID: 8394858894532624064, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1618
+    x: 1935
     y: 73
-    width: 940
+    width: 623
     height: 1288
   m_ViewDataDictionary: {fileID: 0}
-  m_PosLeft: {x: 0, y: 0}
-  m_PosRight: {x: 0, y: 0}
-  m_Scope: 1
-  m_SplitterFlex: 0.2
 --- !u!114 &26
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -77744,10 +77740,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1765.3334
-    y: 72.66667
-    width: 793
-    height: 1289
+    x: 1935
+    y: 73
+    width: 623
+    height: 1288
   m_ViewDataDictionary: {fileID: 0}
   m_PosLeft: {x: 0, y: 0}
   m_PosRight: {x: 0, y: 0}
@@ -77762,46 +77758,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 13853, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 390, y: 390}
+  m_MinSize: {x: 300, y: 300}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Lighting
-    m_Image: {fileID: 8394858894532624064, guid: 0000000000000000d000000000000000,
+    m_Text: Project Settings
+    m_Image: {fileID: 8487775502441791945, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1765.3334
-    y: 72.66667
-    width: 793
-    height: 1289
+    x: 1935
+    y: 73
+    width: 623
+    height: 1288
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &28
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12090, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 300, y: 250}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Occlusion
-    m_Image: {fileID: -2243944637213960084, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1765.3334
-    y: 72.66667
-    width: 793
-    height: 1289
-  m_ViewDataDictionary: {fileID: 0}
+  m_PosLeft: {x: 0, y: 0}
+  m_PosRight: {x: 0, y: 0}
+  m_Scope: 1
+  m_SplitterFlex: 0.2
