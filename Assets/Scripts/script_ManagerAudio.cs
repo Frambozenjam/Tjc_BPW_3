@@ -18,7 +18,9 @@ public class script_ManagerAudio : MonoBehaviour
             s.as_AudioSource.pitch = s.f_Pitch;
             s.as_AudioSource.loop = s.b_Loop;
             s.as_AudioSource.time = s.f_StartTime;
-            //s.as_AudioSource.maxDistance = s.f_Range;
+            s.as_AudioSource.minDistance = s.f_FalloffStartRange;
+            s.as_AudioSource.dopplerLevel = s.f_DopplerLevel;
+            s.as_AudioSource.spread = s.f_3DSpread;
             //s.as_AudioSource.rolloffMode = AudioRolloffMode.Linear;
             s.as_AudioSource.spatialBlend = 1f;
         }

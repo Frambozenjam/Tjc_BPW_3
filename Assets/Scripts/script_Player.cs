@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class script_Player : MonoBehaviour
 {
@@ -34,6 +35,23 @@ public class script_Player : MonoBehaviour
     bool b_Sprinting = false;
     bool b_IsGrounded;
 
+    //Keep object from duplicating. If there is a duplicate, set location of old instance to new instance.
+    public static script_Player instance_Player;
+        void Awake()
+    {
+        if (!instance_Player)
+        {
+            instance_Player = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+            instance_Player.transform.position = gameObject.transform.position;
+            instance_Player.transform.rotation = gameObject.transform.rotation;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,15 +66,15 @@ public class script_Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    }
+
+    void FixedUpdate()
+    {
         Function_InputMovement();
         Function_CheckInputs();
         Function_CheckIfGrounded();
         Function_ApplyMovement();
         Function_Camera();
-    }
-
-    void FixedUpdate()
-    {
     }
 
     //Check for inputs
@@ -218,5 +236,11 @@ public class script_Player : MonoBehaviour
             Function_CursorMode("Unlocked");
             b_MenuOpen = true;
         }
+    }
+
+    //Switch level
+    public void Function_LoadScene(string string_SceneToLoad)
+    {
+        SceneManager.LoadScene(string_SceneToLoad);
     }
 }

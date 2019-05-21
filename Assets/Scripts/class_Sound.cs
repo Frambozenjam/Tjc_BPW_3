@@ -14,9 +14,11 @@ public class class_Sound
     [Range(.1f, 1f)]
     public float f_Pitch;
 
-    public float f_Range = 10;
+    public float f_FalloffStartRange = 3;
     public bool b_Loop;
     public float f_StartTime;
+    public float f_DopplerLevel = 0;
+    public float f_3DSpread = 100;
 
 
 

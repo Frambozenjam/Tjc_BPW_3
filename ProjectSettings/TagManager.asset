@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - tag_Interactable
+  - tag_Teleporter
+  - tag_Waypoint_Pause
   layers:
   - Default
   - TransparentFX

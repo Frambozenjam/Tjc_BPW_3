@@ -9,6 +9,7 @@ public class script_Interact : MonoBehaviour
     public float f_ThrowForce = 500f;
     public float f_LerpSmooth = 1f;
     public bool b_HoldingObject = false;
+    public bool b_CanInteract = true;
     public GameObject obj_Interactable;
     public GameObject obj_TempParrent;
 
@@ -26,9 +27,13 @@ public class script_Interact : MonoBehaviour
         {
             Function_Interact();
         }
+    }
 
-        if (b_HoldingObject == true)
+    private void FixedUpdate()
+    {
+        if (b_HoldingObject)
         {
+            b_CanInteract = false;
             Function_UpdateCarriedObject();
 
             if (Input.GetMouseButton(1))
@@ -36,6 +41,7 @@ public class script_Interact : MonoBehaviour
                 //Throw
             }
         }
+        else b_CanInteract = true;
     }
 
     //Try to interact
@@ -43,12 +49,20 @@ public class script_Interact : MonoBehaviour
     {
         Debug.Log("Interact pressed.");
 
-        if(b_HoldingObject == false)
+        if (b_CanInteract)
         {
             obj_Interactable = GetComponent<script_Player>().Function_Raycast(f_InteractionDistance);
 
             if (obj_Interactable != null)
             {
+                //For interacting with the wisp
+                if (obj_Interactable.GetComponent<script_Interaction_Wisp>() != null)
+                {
+                    script_Interaction_Wisp comp_script_Interaction_Wisp = obj_Interactable.GetComponent<script_Interaction_Wisp>();
+                    comp_script_Interaction_Wisp.function_Interaction();
+                }
+
+                //For picking up an object
                 if (obj_Interactable.gameObject.tag == "tag_Interactable")
                 {
                     obj_Interactable.GetComponent<Rigidbody>().useGravity = false;
@@ -62,7 +76,7 @@ public class script_Interact : MonoBehaviour
                 }
             }
         }
-        else
+        else if(b_HoldingObject)
         {
             obj_Interactable.GetComponent<Rigidbody>().useGravity = true;
             //obj_Interactable.transform.SetParent(null);
@@ -79,6 +93,8 @@ public class script_Interact : MonoBehaviour
         obj_Interactable.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 
         //Keep position at handle
+        //obj_Interactable.transform.position = obj_TempParrent.transform.position;
+        //obj_Interactable.transform.position = Vector3.MoveTowards(obj_Interactable.transform.position, obj_TempParrent.transform.position, Time.deltaTime * (f_LerpSmooth));
         //obj_Interactable.transform.position = Vector3.Lerp(obj_Interactable.transform.position, obj_TempParrent.transform.position, Time.fixedDeltaTime * f_LerpSmooth);
         obj_Interactable.GetComponent<Rigidbody>().MovePosition(Vector3.Lerp(obj_Interactable.transform.position, obj_TempParrent.transform.position, Time.fixedDeltaTime * f_LerpSmooth));
     } 
