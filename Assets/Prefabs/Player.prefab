@@ -452,7 +452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   f_MovementSpeed: 5
-  f_SprintSpeedMultiplyer: 2
+  f_SprintSpeedMultiplyer: 1.75
   f_LookSensitivity_X: 125
   f_LookSensitivity_Y: 125
   f_CameraClampAngle: 80
@@ -503,8 +503,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   f_InteractionDistance: 5
   f_ThrowForce: 500
-  f_LerpSmooth: 25
+  f_LerpSmooth: 10
   b_HoldingObject: 0
+  b_CanInteract: 1
   obj_Interactable: {fileID: 0}
   obj_TempParrent: {fileID: 3788218021199793479}
 --- !u!1 &3788218021760902944

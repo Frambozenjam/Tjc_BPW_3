@@ -39,17 +39,18 @@ public class script_Player : MonoBehaviour
     public static script_Player instance_Player;
         void Awake()
     {
-        if (!instance_Player)
-        {
-            instance_Player = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-            instance_Player.transform.position = gameObject.transform.position;
-            instance_Player.transform.rotation = gameObject.transform.rotation;
-        }
+        //Make Singleton (Disabled because not needed)
+        //if (!instance_Player)
+        //{
+        //    instance_Player = this;
+        //    DontDestroyOnLoad(gameObject);
+        //}
+        //else
+        //{
+        //    Destroy(gameObject);
+        //    instance_Player.transform.position = gameObject.transform.position;
+        //    instance_Player.transform.rotation = gameObject.transform.rotation;
+        //}
     }
 
     // Start is called before the first frame update
@@ -100,10 +101,6 @@ public class script_Player : MonoBehaviour
     void Function_LeftClick()
     {
         Debug.Log("Left clicked.");
-        if(b_MenuOpen == true)
-        {
-            Function_ToggleMenu();
-        }
     }
 
     //Right Click
@@ -224,18 +221,21 @@ public class script_Player : MonoBehaviour
     //Menu
     void Function_ToggleMenu()
     {
-        if(b_MenuOpen == true)
-        {
-            //close menu and hide cursor
-            Function_CursorMode("Locked");
-            b_MenuOpen = false;
-        }
-        else if(b_MenuOpen == false)
-        {
-            //open menu and show cursor
-            Function_CursorMode("Unlocked");
-            b_MenuOpen = true;
-        }
+        Function_CursorMode("Unlocked");
+        SceneManager.LoadScene("scene_Menu");
+
+        //if (b_MenuOpen == true)
+        //{
+        //    //close menu and hide cursor
+        //    Function_CursorMode("Locked");
+        //    b_MenuOpen = false;
+        //}
+        //else if (b_MenuOpen == false)
+        //{
+        //    //open menu and show cursor
+        //    Function_CursorMode("Unlocked");
+        //    b_MenuOpen = true;
+        //}
     }
 
     //Switch level
