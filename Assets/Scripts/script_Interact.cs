@@ -13,6 +13,8 @@ public class script_Interact : MonoBehaviour
     public GameObject obj_Interactable;
     public GameObject obj_TempParrent;
 
+    private int intSwitch_Test;
+
     Vector3 v3_ObjectPos = Vector3.zero;
     FixedJoint comp_FixedJoint;
     private void Start()
@@ -60,6 +62,11 @@ public class script_Interact : MonoBehaviour
                 {
                     script_Interaction_Wisp comp_script_Interaction_Wisp = obj_Interactable.GetComponent<script_Interaction_Wisp>();
                     comp_script_Interaction_Wisp.function_Interaction();
+                }
+                else if (obj_Interactable.GetComponent<script_Interaction_Chest>() != null)
+                {
+                    script_Interaction_Chest compScript_Interaction_Chest = obj_Interactable.GetComponent<script_Interaction_Chest>();
+                    compScript_Interaction_Chest.function_Interaction();
                 }
 
                 //For picking up an object

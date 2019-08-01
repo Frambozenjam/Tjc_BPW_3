@@ -94,7 +94,7 @@ Material:
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _SpecColor: {r: 0.19999948, g: 0.19999948, b: 0.19999948, a: 0}
+    - _SpecColor: {r: 0.19999945, g: 0.19999945, b: 0.19999945, a: 0}
 --- !u!114 &6278678177834144371
 MonoBehaviour:
   m_ObjectHideFlags: 11

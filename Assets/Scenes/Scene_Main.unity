@@ -2356,7 +2356,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1563387863
 Light:
   m_ObjectHideFlags: 0
@@ -2368,7 +2368,7 @@ Light:
   serializedVersion: 9
   m_Type: 1
   m_Color: {r: 1, g: 0.94542384, b: 0.8915094, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 0.25
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2818,7 +2818,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1479817589, guid: 5f261f561cc0cc34db3dc5194a718e22, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.85
+      value: 1.13
       objectReference: {fileID: 0}
     - target: {fileID: 1479817589, guid: 5f261f561cc0cc34db3dc5194a718e22, type: 3}
       propertyPath: m_LocalPosition.z

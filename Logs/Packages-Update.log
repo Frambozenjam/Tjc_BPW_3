@@ -73,3 +73,11 @@ The following packages were added:
   com.unity.modules.vr@1.0.0
   com.unity.modules.wind@1.0.0
   com.unity.modules.xr@1.0.0
+
+=== Fri Jun  7 13:32:04 2019
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.textmeshpro from version 2.0.0 to 2.0.1

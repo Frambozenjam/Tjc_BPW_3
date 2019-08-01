@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2263467028957731547}
   - component: {fileID: 2108605265088550021}
+  - component: {fileID: 5092323274270393612}
   m_Layer: 0
   m_Name: prefab_Chest
   m_TagString: Untagged
@@ -51,6 +52,19 @@ MonoBehaviour:
   f_ToggleOnDelay: 0.1
   f_ToggleOffDelay: 0.4
   bool_Toggle: 0
+--- !u!65 &5092323274270393612
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3806884934313386676}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.6976032, y: 1.345778, z: 1.6326714}
+  m_Center: {x: 0.00000023841858, y: 0.67354846, z: -0.0019648373}
 --- !u!198 &4742333023732013922
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -59,7 +73,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4761801954242526164}
   serializedVersion: 6
-  lengthInSec: 0.65
+  lengthInSec: 0.8
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -134,8 +148,8 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 2
-      minScalar: 1
+      scalar: 1
+      minScalar: 0.5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -625,7 +639,7 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.5
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -901,8 +915,8 @@ ParticleSystem:
         - serializedVersion: 3
           time: 1
           value: 1
-          inSlope: 2
-          outSlope: 2
+          inSlope: 0
+          outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -1561,7 +1575,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 3
       scalar: 0
-      minScalar: 5
+      minScalar: 2
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -3573,7 +3587,7 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 1
+    enabled: 0
     serializedVersion: 3
     type: 1
     collisionMode: 0
@@ -4712,7 +4726,7 @@ ParticleSystem:
 --- !u!199 &7582652193311467430
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

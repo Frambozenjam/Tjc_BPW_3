@@ -8,7 +8,7 @@ public class script_Interaction_Wisp : MonoBehaviour
 
     private void Awake()
     {
-        comp_script_ai_FollowPath = gameObject.GetComponent<script_ai_FollowPath>();
+        comp_script_ai_FollowPath = GetComponent<script_ai_FollowPath>();
     }
 
     public void function_Interaction()

@@ -97,7 +97,7 @@ LightmapSettings:
     m_ShowResolutionOverlay: 1
     m_ExportTrainingData: 0
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -401,7 +401,7 @@ PrefabInstance:
     - target: {fileID: 3788218021920660169, guid: 0d60ca1011a6c7d418146f7366935788,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.68
+      value: -6.949
       objectReference: {fileID: 0}
     - target: {fileID: 3788218021920660169, guid: 0d60ca1011a6c7d418146f7366935788,
         type: 3}
@@ -411,7 +411,7 @@ PrefabInstance:
     - target: {fileID: 3788218021920660169, guid: 0d60ca1011a6c7d418146f7366935788,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.69
+      value: -3.996
       objectReference: {fileID: 0}
     - target: {fileID: 3788218021920660169, guid: 0d60ca1011a6c7d418146f7366935788,
         type: 3}
@@ -451,26 +451,6 @@ PrefabInstance:
     - target: {fileID: 3788218021920660169, guid: 0d60ca1011a6c7d418146f7366935788,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3788218021285061345, guid: 0d60ca1011a6c7d418146f7366935788,
-        type: 3}
-      propertyPath: m_FOVAxisMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3788218021285061345, guid: 0d60ca1011a6c7d418146f7366935788,
-        type: 3}
-      propertyPath: field of view
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 3788218021285061344, guid: 0d60ca1011a6c7d418146f7366935788,
-        type: 3}
-      propertyPath: subpixelMorphologicalAntialiasing.quality
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3788218021285061344, guid: 0d60ca1011a6c7d418146f7366935788,
-        type: 3}
-      propertyPath: antialiasingMode
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1453,3 +1433,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e23611e7ab77f5246aa5d7520d3ef17b, type: 3}
+--- !u!1 &3806884934313386676 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3806884934313386676, guid: 8357eaa1e005062498526484d8a5770c,
+    type: 3}
+  m_PrefabInstance: {fileID: 918382274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3806884934313386677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3806884934313386676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc212d8af111b464988d5a1bf197bfee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
