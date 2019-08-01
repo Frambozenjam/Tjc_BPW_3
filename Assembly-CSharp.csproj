@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Art\Animation\script_ac.cs" />
     <Compile Include="Assets\Scripts\class_Sound.cs" />
+    <Compile Include="Assets\Scripts\script_3DText.cs" />
     <Compile Include="Assets\Scripts\script_ai_FollowPath.cs" />
     <Compile Include="Assets\Scripts\script_ai_Path.cs" />
     <Compile Include="Assets\Scripts\script_AudioCaller.cs" />

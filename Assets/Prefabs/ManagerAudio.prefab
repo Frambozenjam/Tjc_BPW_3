@@ -49,57 +49,81 @@ MonoBehaviour:
     ac_AudioClip: {fileID: 8300000, guid: d59169cb79cdfbc4594c9753a81cabc3, type: 3}
     f_Volume: 0.4
     f_Pitch: 0.45
+    f_FalloffStartRange: 4
     b_Loop: 0
     f_StartTime: 2.5
+    f_DopplerLevel: 0
+    f_3DSpread: 100
     as_AudioSource: {fileID: 0}
   - s_Name: s_Thud
     ac_AudioClip: {fileID: 8300000, guid: b97ba1287c2edbc47ad168aae09707f5, type: 3}
-    f_Volume: 0.75
+    f_Volume: 0.85
     f_Pitch: 0.55
+    f_FalloffStartRange: 4
     b_Loop: 0
     f_StartTime: 0
+    f_DopplerLevel: 0
+    f_3DSpread: 100
     as_AudioSource: {fileID: 0}
   - s_Name: s_Thud2
     ac_AudioClip: {fileID: 8300000, guid: b97ba1287c2edbc47ad168aae09707f5, type: 3}
-    f_Volume: 0.8
+    f_Volume: 0.9
     f_Pitch: 0.5
+    f_FalloffStartRange: 4
     b_Loop: 0
     f_StartTime: 0
+    f_DopplerLevel: 0
+    f_3DSpread: 100
     as_AudioSource: {fileID: 0}
   - s_Name: s_Thud3
     ac_AudioClip: {fileID: 8300000, guid: b97ba1287c2edbc47ad168aae09707f5, type: 3}
-    f_Volume: 0.85
+    f_Volume: 0.95
     f_Pitch: 0.45
+    f_FalloffStartRange: 4
     b_Loop: 0
     f_StartTime: 0
+    f_DopplerLevel: 0
+    f_3DSpread: 100
     as_AudioSource: {fileID: 0}
   - s_Name: s_RollingStone2
     ac_AudioClip: {fileID: 8300000, guid: d59169cb79cdfbc4594c9753a81cabc3, type: 3}
     f_Volume: 0.5
     f_Pitch: 0.4
+    f_FalloffStartRange: 4
     b_Loop: 0
     f_StartTime: 5
+    f_DopplerLevel: 0
+    f_3DSpread: 100
     as_AudioSource: {fileID: 0}
   - s_Name: s_RollingStone3
     ac_AudioClip: {fileID: 8300000, guid: d59169cb79cdfbc4594c9753a81cabc3, type: 3}
     f_Volume: 0.6
     f_Pitch: 0.35
+    f_FalloffStartRange: 4
     b_Loop: 0
     f_StartTime: 7.5
+    f_DopplerLevel: 0
+    f_3DSpread: 100
     as_AudioSource: {fileID: 0}
   - s_Name: s_Magic
     ac_AudioClip: {fileID: 8300000, guid: ddc10777c4bbd354e86f39ac4ea549ac, type: 3}
     f_Volume: 0.8
     f_Pitch: 1
+    f_FalloffStartRange: 3
     b_Loop: 0
     f_StartTime: 0
+    f_DopplerLevel: 0
+    f_3DSpread: 100
     as_AudioSource: {fileID: 0}
   - s_Name: s_PedestalActivate
     ac_AudioClip: {fileID: 8300000, guid: 35a1d85cd396c464b99d4f90aee2c6c0, type: 3}
     f_Volume: 0.8
     f_Pitch: 1
+    f_FalloffStartRange: 3
     b_Loop: 0
     f_StartTime: 0
+    f_DopplerLevel: 0
+    f_3DSpread: 100
     as_AudioSource: {fileID: 0}
 --- !u!82 &2207068103917175074
 AudioSource:
