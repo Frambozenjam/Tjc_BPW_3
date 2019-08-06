@@ -35,6 +35,10 @@ public class script_Player : MonoBehaviour
     bool b_Sprinting = false;
     bool b_IsGrounded;
 
+    bool b_CamFix = false;
+    Vector3 v3_StartCameraRotation;
+    Vector3 v3_StartRotation;
+
     //Keep object from duplicating. If there is a duplicate, set location of old instance to new instance.
     public static script_Player instance_Player;
         void Awake()
@@ -61,7 +65,8 @@ public class script_Player : MonoBehaviour
         //Hide cursor
         Function_CursorMode("Locked");
         //set camera rotation values
-        Vector3 v3_CameraRotation = transform.localRotation.eulerAngles;
+        v3_StartCameraRotation = transform.rotation.eulerAngles;
+        v3_StartRotation = transform.rotation.eulerAngles;
     }
 
     // Update is called once per frame
@@ -167,6 +172,13 @@ public class script_Player : MonoBehaviour
     {
         float f_Mouse_X = Input.GetAxis("Mouse X");
         float f_Mouse_Y = -Input.GetAxis("Mouse Y");
+
+        //Fix start rotation camera
+        if (!b_CamFix)
+        {
+            f_CameraRotation_X += v3_StartCameraRotation.y;
+            b_CamFix = true;
+        }
 
         f_CameraRotation_X += f_Mouse_X * f_LookSensitivity_X * Time.deltaTime;
         f_CameraRotation_Y += f_Mouse_Y * f_LookSensitivity_Y * Time.deltaTime;

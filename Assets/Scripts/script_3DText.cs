@@ -7,13 +7,15 @@ public class script_3DText : MonoBehaviour
     MeshRenderer comp_TextMesh;
     Collider comp_Collider;
 
+    public bool b_StartVisible = false;
+
     // Start is called before the first frame update
     void Start()
     {
         comp_TextMesh = GetComponent<MeshRenderer>();
         comp_Collider = GetComponent<Collider>();
 
-        comp_TextMesh.enabled = false;
+        comp_TextMesh.enabled = b_StartVisible;
     }
 
     // Update is called once per frame

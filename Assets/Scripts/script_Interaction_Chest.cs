@@ -8,6 +8,10 @@ public class script_Interaction_Chest : MonoBehaviour
     script_ac compScript_ac;
     script_ManagerAudio compScript_ManagerAudio;
     AudioSource compAudioSource;
+
+    public GameObject obj_TextVictory;
+    public GameObject obj_TextInstruction;
+
     float f_Countdown = 1;
 
     private void Start()
@@ -22,6 +26,8 @@ public class script_Interaction_Chest : MonoBehaviour
         compScript_ac.bool_Toggle = !compScript_ac.bool_Toggle;
         compScript_ManagerAudio.Function_PlayAudio("au_ChestOpen");
         compAudioSource.volume = 1;
+        obj_TextVictory.SetActive(true);
+        obj_TextInstruction.SetActive(false);
     }
 
     private void FixedUpdate()
@@ -35,7 +41,7 @@ public class script_Interaction_Chest : MonoBehaviour
                 Cursor.lockState = CursorLockMode.None;
                 SceneManager.LoadScene("scene_MenuVictory");
             }
-            f_Countdown = f_Countdown -0.0035f;
+            f_Countdown = f_Countdown -0.003f;
         }
     }
 }
